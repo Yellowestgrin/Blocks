@@ -1,6 +1,7 @@
 div {
   margin: 3px;
   font-size: 32pt;
+  float: left;
   position: relative;
 }
 
@@ -13,10 +14,12 @@ div {
 
 .first {
   background-color: #65C2DC;
+  left: 0;
 }
 
 .second {
   background-color: #EEBC40;
+
 }
 
 .third {
@@ -24,7 +27,7 @@ div {
 }
 
 .main {
-  background-color: gray;
+  background-color: lightgray;
   width: 1015px;
   height: 550px;
 }
