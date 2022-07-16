@@ -13,6 +13,7 @@ div {
   background-color: white;
   height: 20%;
   width: inherit;
+  position: absolute;
   bottom: 0;
   font-size: 65%;
 }
@@ -31,7 +32,6 @@ div {
 }
 
 .main {
-  position: relative;
   background-color: lightgray;
   width: 900px;
   height: 550px;
