@@ -3,9 +3,14 @@ body {
 }
 
 img {
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
   visibility: hidden;
+  position: absolute;
+  right: 10px;
+  z-index: 1;
+  bottom: 85px;
+  filter: drop-shadow(3px 3px 3px gray);
 }
 
 div {
@@ -30,10 +35,6 @@ div {
   box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .6);
 }
 
-.under:hover img {
-  visibility: visible;
-}
-
 .inside {
     color: black;
     font-size: 25%;
@@ -48,6 +49,10 @@ div {
 
 div:hover {
   color: black;
+}
+
+div:hover img {
+  visibility: visible;
 }
 
 .second {
