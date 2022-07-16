@@ -1,0 +1,28 @@
+div {
+  margin: 3px;
+  font-size: 32pt;
+  position: relative;
+}
+
+.under {
+  background-color: white;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+}
+
+.first {
+  background-color: #65C2DC;
+}
+
+.second {
+  background-color: #EEBC40;
+}
+
+.third {
+  background-color: #269F5D;
+}
+
+.main {
+  background-color: gray;
+}
