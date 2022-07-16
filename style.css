@@ -3,8 +3,8 @@ div {
   font-size: 32pt;
   float: left;
   line-height: 545px;
-  width: auto;
-  height: auto;
+  width: 300px;
+  height: inherit;
   position: relative;
   text-align: center;
 }
@@ -31,6 +31,7 @@ div {
 }
 
 .main {
+  position: relative;
   background-color: lightgray;
   width: 900px;
   height: 550px;
