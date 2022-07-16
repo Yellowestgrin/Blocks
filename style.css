@@ -2,6 +2,12 @@ body {
   font-family: Arial;
 }
 
+img {
+  width: 20px;
+  height: 20px;
+  visibility: hidden;
+}
+
 div {
   margin: 3px;
   font-size: 86pt;
@@ -22,6 +28,10 @@ div {
   bottom: 0;
   left: 0;
   box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .6);
+}
+
+.under:hover img {
+  visibility: visible;
 }
 
 .inside {
