@@ -1,25 +1,43 @@
+body {
+  font-family: Arial;
+}
+
 div {
   margin: 3px;
-  font-size: 32pt;
+  font-size: 86pt;
+  color: white;
   float: left;
-  line-height: 545px;
+  line-height: 255px;
   width: 300px;
-  height: inherit;
+  height: 400px;
   position: relative;
   text-align: center;
 }
 
 .under {
   background-color: white;
-  height: 20%;
+  height: 25%;
   width: inherit;
   position: absolute;
   bottom: 0;
-  font-size: 65%;
+  left: 0;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .6);
+}
+
+.inside {
+    color: black;
+    font-size: 25%;
+    text-align: left;
+    line-height: 50px;
+    margin-left: 10px;
 }
 
 .first {
   background-color: #65C2DC;
+}
+
+div:hover {
+  color: black;
 }
 
 .second {
@@ -33,6 +51,6 @@ div {
 
 .main {
   background-color: lightgray;
-  width: 900px;
-  height: 550px;
+  width: 920px;
+  height: 410px;
 }
