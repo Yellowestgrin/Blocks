@@ -4,8 +4,9 @@ div {
   float: left;
   line-height: 550px;
   width: 300px;
-  height: 500px;
+  height: auto;
   position: relative;
+  text-align: center;
 }
 
 .under {
@@ -13,6 +14,7 @@ div {
   height: 20%;
   position: absolute;
   bottom: 0;
+  font-size: 65%;
 }
 
 .first {
