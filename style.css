@@ -2,6 +2,9 @@ div {
   margin: 3px;
   font-size: 32pt;
   float: left;
+  line-height: 550px;
+  width: 300px;
+  height: 500px;
   position: relative;
 }
 
@@ -14,7 +17,6 @@ div {
 
 .first {
   background-color: #65C2DC;
-  left: 0;
 }
 
 .second {
